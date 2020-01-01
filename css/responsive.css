@@ -1,0 +1,133 @@
+/* ------------------------------------------------
+                BOOTSTRAP # MEDIA QUERIES
+-------------------------------------------------*/
+
+/* Large Devices */ 
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+/* Medium Devices */ 
+@media (min-width: 992px) and (max-width: 1199px){
+   .navbar {
+       background: rgba(0, 0, 0, .7);
+       padding: 0;
+   }
+   .navbar-nav {
+       float: left;
+   }
+   .vesco-nav-wrapper {
+       padding:0;
+   }
+}
+
+/* Small Devices */ 
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding:0;
+    }
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height:350px
+    }
+    #about-content-box {
+        widows: 100%;
+        height:350px;
+    }
+    .stats-item {
+        padding:20px 0;
+    }
+    #footer-bottom {
+        text-align: center;
+    }
+}
+/* Extra Small Devices */ 
+@media (max-width: 767px){
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding:0;
+    }
+    #home-heading h3{
+        font-size:24px;
+    }
+    .btn-general {
+        padding:6px 22px 6px 22px;
+        font-size:14px;
+    }
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height:350px
+    }
+    #about-content-box {
+        widows: 100%;
+        height:350px;
+    }
+    .img-wrapper img {
+        min-width: 100%;
+    }
+    .testemon blockquote{
+        padding: 6px 50px;
+    }
+    .testemon blockquote:before {
+        left: 10px;
+    }
+    .testemon blockquote:after {
+        right:10px;
+    }
+    .testemon blockquote p{
+        font-size: 14px;
+    }
+    .stats-item {
+        padding:20px 0;
+    }
+    #footer-bottom {
+        text-align: center;
+    }
+}
+/* Extra Small Devices */ 
+@media (max-width: 480px){
+  
+}
+/* Extra Small Devices */ 
+@media (max-width: 320px){
+    .service-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+    .service-item-title h3 {
+        font-size: 17px;
+    }
+    #about-content-box {
+        margin-top:40px;
+    }
+    .testemon img {
+        max-width: 80px;
+    }
+    .testemon blockquote{
+        padding: 6px 30px;
+    }
+    .testemon blockquote:before {
+        left: 10px;
+    }
+    .testemon blockquote:after {
+        right:10px;
+    }
+}
